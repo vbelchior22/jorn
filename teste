@@ -28,6 +28,24 @@
             bottom: 0;
             width: 100%;
         }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -40,11 +58,13 @@
         <section>
             <h2>Sobre Mim</h2>
             <p>Esta é uma breve descrição sobre quem eu sou e o que este site oferece.</p>
+            <a href="sobre.html" class="button">Saiba Mais</a>
         </section>
 
         <section>
             <h2>Últimas Notícias</h2>
             <p>Aqui estão as últimas notícias e atualizações do meu mundo.</p>
+            <a href="noticias.html" class="button">Ver Notícias</a>
         </section>
     </main>
 
